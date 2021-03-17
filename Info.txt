@@ -1,0 +1,15 @@
+This Is to Inform You that you have been proceeded to the Take Home Assignment Round.
+
+Kindly Complete the Assignment and Submit it to us in 2 days.
+
+Follow the below instructions and submit the test accordingly. 
+
+Obtain JWT using the URL https://developers.google.com/oauthplayground/
+Write simple server using https://nestjs.com/ and http://www.passportjs.org/  
+Implement custom strategy which uses JWT from first step to authorize user
+User data (email, name) is inside JWT, display this data in response to request 
+ curl \
+
+https://localhost:3000/auth/google \
+
+-H "Authorization: Bearer JWT”
